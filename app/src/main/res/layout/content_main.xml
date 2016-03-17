@@ -16,7 +16,6 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="numberSigned"
         android:ems="10"
         android:id="@+id/numberField"
         android:background="#d9dbdb"
@@ -27,7 +26,8 @@
         android:textAlignment="textEnd"
         android:layout_marginTop="45dp"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:inputType="numberSigned" />
 
     <Button
         android:layout_width="wrap_content"

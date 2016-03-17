@@ -11,6 +11,12 @@ public class Calculator {
     float sum;
 
     public
+    void Calculator(){
+        number1 = 0;
+        number2 = 0;
+        operator = "";
+        sum = 0;
+    }
     void setNumber1(float num1){
         number1 = num1;
     }
@@ -34,6 +40,9 @@ public class Calculator {
                 break;
             case "/":
                 sum = number1/number2;
+                break;
+            default:
+                sum = 0;
                 break;
         };
     }
